@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/merlinx" name="NadinPrjkts/android_device_xiaomi_merlinx" remote="github"  />
+ <project path="device/xiaomi/mt6768-common" name="NadinPrjkts/android_device_xiaomi_mt6768-commom" remote="github" />
+ <project path="kernel/xiaomi/merlinx" name="NadinPrjkts/android_kernel_xiaomi_mt6768" remote="github" clone-depth="1" />
+ <project path="vendor/xiaomi/merlinx" name="NadinPrjkts/android_vendor_xiaomi_merlinx" remote="github" />
+ <project path="vendor/xiaomi/mt6768-ims" name="NadinPrjkts/android_vendor_xiaomi_mt6768-ims" remote="github" />
+
+ <!-- Removes -->
+ <remove-project name="vendor/mediatek/ims" />
+ <remove-project name="vendor/mediatek/interfaces" />
+
+ <!-- Changes -->
+ <project path="vendor/mediatek/ims" name="NadinPrjkts/vendor_mediatek_ims" remote="github" />
+ <project path="vendor/mediatek/interfaces" name="NadinPrjkts/vendor_mediatek_interfaces" remote="github" />
+ 
+</manifest>
